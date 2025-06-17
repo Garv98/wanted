@@ -68,20 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Google Maps Integration
-
-To use the map feature, you need a Google Maps JavaScript API key:
-
-1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
-2. Select your project (or create a new one).
-3. In the left sidebar, go to **APIs & Services > Credentials**.
-4. Click **+ CREATE CREDENTIALS** and select **API key**.
-5. Copy the generated API key.
-6. (Recommended) Click **Restrict key** and:
-   - Under **API restrictions**, select **Maps JavaScript API**.
-   - Under **Application restrictions**, add your development URLs (e.g., `http://localhost:4000`).
-7. Save your changes.
-8. Replace `"YOUR_GOOGLE_MAPS_API_KEY"` in your `src/App.js` with your actual API key.
-
-If you see a "For development purposes only" watermark, check your API key restrictions and ensure the Maps JavaScript API is enabled.
